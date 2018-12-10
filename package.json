@@ -2,6 +2,10 @@
   "name": "react-redux-router",
   "version": "1.0.0",
   "description": "Basic skeleton codebase for React/Redux/Router applications.",
+  "engines": {
+    "node": "10.13.0",
+    "npm": "6.4.1"
+  },
   "scripts": {
     "preinstall": "npm set audit false",
     "postinstall": "copy env.example.js env.js",
